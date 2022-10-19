@@ -1,0 +1,86 @@
+.mainDiv{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+   
+    height: 100vh;
+    
+}
+.field7 input[type="password"],
+.field7 input[type="text"]{
+  width: 100%;
+  padding: 12px 36px 12px 12px;
+  box-sizing: border-box;
+}
+
+h3{
+    color: #111111;
+    font-weight: 700;
+    
+}
+
+.formWrapper{
+    width: 60%;
+    padding: 40px;
+    display: flex;
+   margin-left: 150px;
+    align-items: center;
+    
+}
+.imgSec{
+    width: 50%;
+    justify-content: end;
+}
+
+
+
+.btn{
+    
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 500;
+}
+ .btnSubmit{
+    background-color: #4c3e79;
+ }
+ #errorname{
+    color: red;
+ }
+ label{
+    color: #222222;
+    font-family:  'Lato', sans-serif;
+ }
+ .btnG{
+    background-color: rgb(35, 34, 75);
+    color: white;
+    
+ }
+ .btnG:hover{
+    background-color: #4a4a4a;
+ }
+ @media (max-width: 400px){
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .formWrapper{
+        width: 100%;
+        margin: auto;
+        align-items: flex-start;
+    }
+    .imgSec{
+        width: 100%;
+    }
+   
+ }
+
+ body {
+  
+    font-family: "Open Sans", sans-serif;
+    color:#A9A9A9;
+  }
+  
+  
